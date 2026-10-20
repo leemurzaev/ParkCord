@@ -44,6 +44,7 @@
         <module>proxy</module>
         <module>query</module>
         <module>serializer</module>
+        <module>shield</module>
         <module>slf4j</module>
         <module>native</module>
         <module>nbt</module>
@@ -77,7 +78,7 @@
     <properties>
         <build.number>unknown</build.number>
         <lombok.version>1.18.48</lombok.version>
-        <maven.compiler.release>17</maven.compiler.release>
+        <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -260,7 +261,7 @@
                                 <reactorModuleConvergence/>
                                 <requireExplicitDependencyScope/>
                                 <enforceBytecodeVersion>
-                                    <maxJdkVersion>17</maxJdkVersion>
+                                    <maxJdkVersion>21</maxJdkVersion>
                                     <ignoreClasses>
                                         <ignoreClass>org.jline.terminal.impl.ffm.*</ignoreClass>
                                     </ignoreClasses>
