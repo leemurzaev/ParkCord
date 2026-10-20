@@ -37,3 +37,6 @@ manifest.mf
 
 # delombok
 */src/main/lombok
+
+# ParkCord: local build logs
+.build-logs/
